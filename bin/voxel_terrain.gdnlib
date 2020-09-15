@@ -1,0 +1,14 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+Windows.64="res://target/release/voxel_terrain.dll"
+
+[dependencies]
+
+Windows.64=[ "res://target/release/marching_cubes.dll" ]

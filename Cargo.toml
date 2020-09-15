@@ -1,0 +1,14 @@
+[package]
+name = "voxel_terrain"
+version = "0.1.0"
+authors = ["Dacio Romero <dacioromero@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+marching-cubes = { git = "https://github.com/dacioromero/rust-marching-cubes.git" }
+gdnative = "0.9.0-preview.0"
+threadpool = "1.8.1"
+euclid = "^0.20.0"
